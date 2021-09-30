@@ -5,6 +5,7 @@ WORKDIR /chain-node
 
 COPY . /chain-node
 
+
 RUN cargo +nightly build --release
 
 # ===== SECOND STAGE ======
